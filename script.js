@@ -128,7 +128,7 @@ function saveCart() {
 }
 
 function formatPrice(price) {
-  return new Intl.NumberFormat("ar-YE", { maximumFractionDigits: 0 }).format(price);
+  return new Intl.NumberFormat("en-US", { maximumFractionDigits: 0 }).format(price);
 }
 
 function renderProducts() {
